@@ -48,5 +48,10 @@ namespace GoogleTest
                 "The search result did not contains Selenium IDE phrase at index {0}", index);
 
         }
+
+        [Test]
+        public void ATest() {
+            Console.WriteLine(TestContext.CurrentContext);
+        }
     }
 }
